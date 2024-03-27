@@ -89,8 +89,9 @@ tem_tierra = ds18x20.DS18X20(onewire.OneWire(ds_pin))
 roms = tem_tierra.scan()
 tierra=ADC(26)
 resolucion=3.3/65535
-maximo=3.28
-minimo=1.0
+resol=5.4/65535
+#maximo=3.28
+#minimo=1.0
 tempint=ADC(4)
 pir_uno= Pin(10, Pin.IN, Pin.PULL_DOWN)
 pir_dos= Pin(11, Pin.IN, Pin.PULL_DOWN)
@@ -204,7 +205,7 @@ while True:
     tem_tierra.convert_temp()
     for rom in roms:
         print("Temperatura del suelo:" +str(tem_tierra.read_temp(rom)-2)+"C")
-    hum_tierra=((maximo-(tierra.read_u16()*resolucion))*100/(maximo-minimo))
+    hum_tierra=round(((tierra.read_u16()*resol)*(-21.6449))+116.8827,2)
     print("Humedad de la tierra:" + str(hum_tierra) + "%")
     if hum_tierra<=30:# se enciende con OFF y se apaga con ON
         relay_uno.off()

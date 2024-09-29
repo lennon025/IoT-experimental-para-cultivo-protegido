@@ -1,24 +1,20 @@
-"# IoT-experimental-para-cultivo-protegido" 
-Proyecto IoT experimental para agricultura inteligente utilizando una placa de desarrollo, componentes electrónicos y algunos sensores utilizados en los laboratorios de enseñanza universitarios.
+"# IoT Experimental para cultivo protegido. / Экспериментальная система IoT для защищенного земледелия." 
 
-Este pequeño proyecto fue parte de la exposición de tesis de maestría, donde recibió un cálido recibimiento por parte del tribunal. Sin embargo no puedo asumir todo el mérito por lo realizado, ya que las librerías que utilizan los sensores, no fueron creadas por mí, sino que, fueron descargados de github, además de la mayoría de los códigos  de configuración de los sensores que pueden encontrarse hoy en Internet y que me tome el trabajo de probarlos, estudiarlos, modificarlos e integrarlos, superando conflictos e incompatibilidades en el camino, agregando claro esta soluciones y códigos propios. 
+Texto en español y en ruso / Текст на испанском и русском языках 
 
-Pero de todos los que tome un despacito de código prestado, idea, texto, librerías u otro, tienen en mi tesis escrita una referencia bibliográfica a modo de reconocimiento a la labor que han realizo y que aún realizan. De igual modo agradeceré a todos quienes revisen este trabajo cualquier consejo o idea que puedan aportar, ya que este es solo la versión 1.0. Pues tengo la intención de seguir actualizándolo. 
 
-Para ello he creado un pequeño listado a modo de recordatorio para una versión futura.
+Proyecto IoT experimental para agricultura inteligente utilizando una placa de desarrollo Raspberry Pi Pico, sensores y actuadores, bajo lenguaje de programación MicroPython.
 
-–	Implementación de energía autosuficiente (panel solar y acumulador de energía).
+Este realiza la función es la medición de la temperatura ambiente, humedad relativa, presión atmosférica, intensidad de la luz, además de la temperatura y la humedad del suelo. Estos seis datos son enviados a través de un pequeño servidor web configurado dentro del propio microcontrolador y enviados a una red Wifi utilizando el módulo ESP-01. Estos datos pueden visualizarse en un navegador web en cualquier dispositivo electrónico que cuente con un navegador y una conexión wifi. lo que permite el control de estas variables agroclimáticas para la toma oportuna de decisiones.
 
-–	Diseño de una caja impermeable de mayor tamaño para alojar dentro del prototipo IoT un acumulador de energía que permita la autonomía durante las horas de poca luz, noche u interrupciones de la red eléctrica.
+Además de la visualización de los datos en tiempo real, permite la activación de riego automático por medio de la activación de relés, que se activan tras recibir información del sensor de humedad del suelo. Otra de las funciones incorporadas son los sensores PIR para la detección de movimientos, permitiendo la activación de alarmas o luces. 
 
-–	Diseño de una red neuronal para la predicción de lluvias a través de los datos de temperatura, humedad y presión atmosférica. 
+Este pequeño proyecto fue parte de la exposición de tesis de maestría, donde recibió un cálido recibimiento por parte del tribunal.
 
-–	Implementación un dispositivo de comunicación bluetooth con una aplicación para teléfonos móviles, con interfaz sencilla que muestre las lecturas y permita modificar parámetros de comportamiento en los principales sensores del prototipo IoT. 
+Экспериментальный IoT-проект для умного сельского хозяйства с использованием платы разработки Raspberry Pi Pico, датчиков и исполнительных устройств, под управлением языка программирования MicroPython.
 
-–	Implementación de un sensor de medición de PH del agua.
+Она выполняет функцию измерения температуры окружающей среды, относительной влажности, атмосферного давления, интенсивности освещения, а также температуры и влажности почвы. Эти шесть данных отправляются через небольшой веб-сервер, сконфигурированный в самом микроконтроллере, и передаются в сеть Wifi с помощью модуля ESP-01. Эти данные можно просматривать в веб-браузере на любом электронном устройстве, имеющем браузер и подключение к сети Wi-Fi, что позволяет отслеживать эти агроклиматические переменные для своевременного принятия решений.
 
-–	Proporcionar un botón con acceso de llave, para el apagado y encendido general del prototipo IoT en caso de necesitarse un reinicio o apagado para revisión, esto para evitar el uso de interruptores estándares que puedan ocasionar reinicio por descuido durante la manipulación. 
+Помимо визуализации данных в режиме реального времени, система позволяет активировать автоматический полив с помощью реле, которые срабатывают после получения информации от датчика влажности почвы. Еще одной функцией являются PIR-датчики для обнаружения движения, позволяющие активировать сигнализацию или освещение. 
 
-–	Mecanismo para evitar los incidentes con el riego automático tras las interrupciones externas de lectura del sensor FC-28.
-
-–	Estudiar los beneficios de las versiones capacitivas del sensor de humedad del suelo. 
+Этот небольшой проект стал частью выставки магистерской диссертации, где был тепло принят трибуналом.

@@ -23,8 +23,8 @@ Este pequeño proyecto fue parte de la exposición de tesis de maestría, donde 
 
 <img width="850" height="850" alt="IoT Prototipo" src="https://github.com/user-attachments/assets/af0fa540-bdbc-4d88-8d9b-9d8712494e5b" />
 
-<img width="850" height="850" alt="IoT Prototipo01" src="https://github.com/user-attachments/assets/bad05919-789b-41d3-be41-508b595820e9" />
+<img width="460" height="1000" alt="IoT Prototipo01" src="https://github.com/user-attachments/assets/eb49826e-f316-4c52-8124-e9f5cb491de9" />
 
-<img width="850" height="850" alt="IoT Prototipo02" src="https://github.com/user-attachments/assets/cc00e491-a982-4e05-bdfe-40f9cd1949d7" />
+<img width="460" height="1000" alt="IoT Prototipo02" src="https://github.com/user-attachments/assets/9f8b6e74-7d30-4d86-899f-5c2220ec97c6" />
 
-<img width="850" height="750" alt="IoT Prototipo03" src="https://github.com/user-attachments/assets/3105d2d7-1663-45c6-9ebc-0251d182cd5b" />
+<img width="1000" height="460" alt="IoT Prototipo03" src="https://github.com/user-attachments/assets/5091a566-65c6-4313-9516-899ebaa6dd70" />

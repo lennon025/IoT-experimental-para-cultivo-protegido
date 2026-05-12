@@ -1,4 +1,4 @@
-<img width="993" height="993" alt="agrologo" src="https://github.com/user-attachments/assets/e1c9bc61-700d-4784-82cc-824a1e0445e0" />
+<img width="150" height="150" alt="agrologo" src="https://github.com/user-attachments/assets/e1c9bc61-700d-4784-82cc-824a1e0445e0" />
 
 "# IoT Experimental para cultivo protegido. / Экспериментальная система IoT для защищенного земледелия." 
 

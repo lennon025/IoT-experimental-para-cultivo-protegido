@@ -21,3 +21,10 @@ Este pequeño proyecto fue parte de la exposición de tesis de maestría, donde 
 
 Этот небольшой проект стал частью выставки магистерской диссертации, где был тепло принят трибуналом.
 
+<img width="1600" height="1447" alt="IoT Prototipo" src="https://github.com/user-attachments/assets/af0fa540-bdbc-4d88-8d9b-9d8712494e5b" />
+
+<img width="920" height="2000" alt="IoT Prototipo01" src="https://github.com/user-attachments/assets/bad05919-789b-41d3-be41-508b595820e9" />
+
+<img width="920" height="2000" alt="IoT Prototipo02" src="https://github.com/user-attachments/assets/cc00e491-a982-4e05-bdfe-40f9cd1949d7" />
+
+<img width="2000" height="920" alt="IoT Prototipo03" src="https://github.com/user-attachments/assets/3105d2d7-1663-45c6-9ebc-0251d182cd5b" />
